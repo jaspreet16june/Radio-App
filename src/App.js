@@ -1,23 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import Audio from "./Audio"
 
-function App() {
+let App=()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Super-Duper Radio player </h1>
+      <h2>Pick a genre, choose a station and Start listening</h2>
+      <Audio />
     </div>
   );
 }
